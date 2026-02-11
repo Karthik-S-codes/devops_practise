@@ -12,3 +12,5 @@ RUN javac LoginApp.java
 
 # Step 5: Run the program
 CMD ["java", "LoginApp"]
+#docker build -t login-app
+#docker run -it login-app
